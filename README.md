@@ -32,7 +32,8 @@
 
 			中文版说明
 
-	PyAssistnt是在PythonSctipt基础上运行的脚本，PythonScript是Notepad++的一个插件。PyAssistant的目的，是当你用Notepad++编写python代码时，为你提供动态自动完成和自动缩进的功能。
+	PyAssistnt是在PythonSctipt基础上运行的脚本，PythonScript是Notepad++的一个插件。PyAssistant的目的，
+是当你用Notepad++编写python代码时，为你提供动态自动完成和自动缩进的功能。
 	
 	1.安装
 	1.1安装PythonScript for Notepad++。你可以通过主菜单->插件->插件管理器 安装它，也可以在sf.net<http://sourceforge.net/projects/npppythonscript/?source=directory >下载手动安装。
@@ -49,13 +50,16 @@
     
     2.注意事项
     2.1 PyAssistan新增加缩进是用tab完成的。
-    2.2 动态自动完成，对于PythonScript不能正常import的模块也是无效的。import出错的模块名字，将显示在python控制台。前已知不能import的模块有：sqllite3,wx。
-   2.3在PythonScript中import出错的模块，可以在python之下运行，生成模块信息导入到PyAssistantDict.py文件中，供PyAssistant使用。用法是:
+    2.2 动态自动完成，对于PythonScript不能正常import的模块也是无效的。import出错的模块名字，将显示在
+python控制台。前已知不能import的模块有：sqllite3,wx。
+   2.3在PythonScript中import出错的模块，可以在python之下运行，生成模块信息导入到PyAssistantDict.py
+文件中，供PyAssistant使用。用法是:
 
      python.exe PyAssistant.py 模块1[,模块2,...]
 	
 	3.文件
 	PyAssistant的文件包括：
 	PyAssistant.py	主程序文件
-	PyAssistantDict.py  模块信息文件，由主程序生成。如果有与PyAssistantDict.py有关的错误，请删除PyAssistantDict.py文件，并再次运行PyAssistant。
+	PyAssistantDict.py  模块信息文件，由主程序生成。如果有与PyAssistantDict.py有关的错误，请删除
+PyAssistantDict.py文件，并再次运行PyAssistant。
    
