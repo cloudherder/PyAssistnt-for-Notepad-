@@ -8,7 +8,8 @@ Foundation; either version 2 of the License, or (at your option) any later versi
  
 	PyAssistnt is python script that based on the PythonScript  , PythonScript is a plugin 
 for Notepad++. The purpose of PyAssistant  is  when you write Python code with 
-Notepad + +, to provide you with dynamic auto-complete and auto-indent feature.
+Notepad + +, to provide you with auto-complete that generate it via scan current code  and 
+auto-indent feature.
  
 	1. install
 	1.1 Installing the PythonScript for Notepad++.You can use Main Menu->Plugins-> 
