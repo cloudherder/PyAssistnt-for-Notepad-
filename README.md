@@ -9,17 +9,20 @@
  to provide you with dynamic auto-complete and auto-indent feature.
  
 	1. install
-	1.1 Installing the PythonScript for Notepad++.You can use Main Menu-> Plugins
--> Plugins Manager to install it, or download  it from sf.net  <
-http://sourceforge.net/projects/npppythonscript/?source=directory >and manual install it.
+	1.1 Installing the PythonScript for Notepad++.You can use Main Menu->Plugins
+-> Plugins Manager to install it, or download  it from sf.net
+<http://sourceforge.net/projects/npppythonscript/?source=directory >and manual install it.
 	1.2.Download PyAssistant.zip 
 	1.3Unzip PyAssistant.zip to a directory Notepad Install path/plugins/PythonScript/scripts .
 	1.4 Click Main Menu->Python Script->Scripts->PyAssistant to run .
 	if you open the Python console of PythonScript at before  , PyAssistant is successful will 
 display on console:
+
 	PyAssistant has hooked!
+	
 	1.5  Click Main Menu->Python Script->Scripts->UnPyAssistant to cancel  PyAssistant bind
 with notepad++.PyAssistant is successful will display  on console:
+
 	PyAssistant has unhooked!
 	
 	2. Attention
@@ -29,7 +32,8 @@ The module name raise  error at import ,will display on pyhon console .Now ,It k
 to import modules,include sqllite3 and wx.
 	2.3 It raise error on import  that PythonScript modules can be run under Python to generate help 
 information import to the  file PyAssistantDict.py, for PyAssistant use. Usage:
-	python.exe PyAssistant.py module 1[, module 2, ...]
+	
+       python.exe PyAssistant.py module 1[, module 2, ...]
 	
 	3.Files
 	These files of PyAssistant include：
@@ -46,14 +50,17 @@ PyAssistant的目的，是当你用Notepad++编写python代码时，为你提供
 	
 	1.安装
 	1.1安装PythonScript for Notepad++。你可以通过主菜单->插件->插件管理器 安装它，也可以在
-sf.net  <http://sourceforge.net/projects/npppythonscript/?source=directory >下载手动安装。
+sf.net<http://sourceforge.net/projects/npppythonscript/?source=directory >下载手动安装。
 	1.2 下载PyAssistant.zip。
 	1.3 解压PyAssistant.zip到目录Notepad path/plugins/PythonScript/scripts.
 	1.4 点击 主菜单->插件->Python Script->Scripts->PyAssistant 运行之。
 	如果你在这之前打开了PythonScript的python控制台，PyAssistant运行成功会在控制台显示：
+	
     PyAssistant has hooked!
-	1.5 点击 主菜单->插件->Python Script->Scripts->UnPyAssistant 取消PyAssistant 与Notepad++
+    
+	1.5 点击 主菜单->插件->Python Script->Scripts->UnPyAssistant取消PyAssistant与Notepad++
 的绑定。unPyAssistant运行成功会在控制台显示：
+
     PyAssistant has unhooked!
     
     2.注意事项
@@ -62,6 +69,7 @@ sf.net  <http://sourceforge.net/projects/npppythonscript/?source=directory >下�
 显示在python控制台。前已知不能import的模块有：sqllite3,wx。
    2.3在PythonScript中import出错的模块，可以在python之下运行，生成模块信息导入到PyAssistantDict.py
 文件中，供PyAssistant使用。用法是:
+
      python.exe PyAssistant.py 模块1[,模块2,...]
 	
 	3.文件
