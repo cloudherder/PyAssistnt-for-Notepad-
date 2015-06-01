@@ -40,7 +40,7 @@ information import to the  file PyAssistantDict.py, for PyAssistant use. Usage:
 	3.Files
 	These files of PyAssistant include：
 	PyAssistant.py	main program file
-	unPyAssistant.py	cancel  PyAssistant bind with notepad++
+	UnPyAssistant.py	cancel  PyAssistant bind with Notepad++
 	PyAssistantDict.py  module information ,create by main program.If raise error about 
 PyAssistantDict.py, please delete PyAssistantDict.py and run PyAssistant again.
 
@@ -76,6 +76,7 @@ UnPyAssistant运行成功会在控制台显示：
 	3.文件
 	PyAssistant的文件包括：
 	PyAssistant.py	主程序文件
+	UnPyAssistant.py 取消PyAssistant与Notepad++的绑定
 	PyAssistantDict.py  模块信息文件，由主程序生成。如果有与PyAssistantDict.py有关的错误，请删除
 PyAssistantDict.py文件，并再次运行PyAssistant。
    
